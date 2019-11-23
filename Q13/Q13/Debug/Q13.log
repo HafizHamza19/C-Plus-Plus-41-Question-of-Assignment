@@ -1,0 +1,29 @@
+﻿Build started 5/1/2017 1:27:28 PM.
+     1>Project "c:\Users\hafizhamza\documents\visual studio 2010\Projects\Q13\Q13\Q13.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Q13.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Q13.cpp
+         Q13.cpp
+     1>c:\users\hafizhamza\documents\visual studio 2010\projects\q13\q13\q13.cpp(13): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\hafizhamza\documents\visual studio 2010\projects\q13\q13\q13.cpp(19): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\hafizhamza\documents\visual studio 2010\projects\q13\q13\q13.cpp(25): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\hafizhamza\documents\visual studio 2010\projects\q13\q13\q13.cpp(31): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\hafizhamza\documents\visual studio 2010\projects\q13\q13\q13.cpp(37): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\hafizhamza\documents\visual studio 2010\projects\q13\q13\q13.cpp(43): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\hafizhamza\documents\visual studio 2010\projects\q13\q13\q13.cpp(47): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\hafizhamza\documents\visual studio 2010\Projects\Q13\Debug\Q13.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Q13.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\hafizhamza\documents\visual studio 2010\Projects\Q13\Debug\Q13.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\hafizhamza\documents\visual studio 2010\Projects\Q13\Debug\Q13.lib" /MACHINE:X86 Debug\Q13.obj
+         LINK : c:\users\hafizhamza\documents\visual studio 2010\Projects\Q13\Debug\Q13.exe not found or not built by the last incremental link; performing full link
+         Q13.vcxproj -> c:\users\hafizhamza\documents\visual studio 2010\Projects\Q13\Debug\Q13.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\hafizhamza\documents\visual studio 2010\Projects\Q13\Debug\Q13.exe;#1" /manifest Debug\Q13.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Q13.unsuccessfulbuild".
+         Touching "Debug\Q13.lastbuildstate".
+     1>Done Building Project "c:\Users\hafizhamza\documents\visual studio 2010\Projects\Q13\Q13\Q13.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.43
